@@ -83,6 +83,8 @@ Since the non-trivial functional dependency contains the candidate key only, the
 # Database Schema Diagram 
 ![Database Schema Diagram](https://github.com/BruleeTea/Book-store/assets/142434143/1f69d620-97cf-462a-9006-d48893c566ee)
 
+# Implementation
+This project was coded in Java, which is not complete. The database was implemented in Postgres. The application interface is a command line interface. I have an object called database which does all the queries and the bookstore does all the menu displays and gets user input. 
 
 
 
