@@ -1,6 +1,6 @@
 # Conceptual Design
 
-![ER Diagram](https://github.com/BruleeTea/Book-store/assets/142434143/c8a52b2f-1af3-438c-9e1e-be3d712a970d)
+![ER Diagram](https://github.com/BruleeTea/Book-store/assets/142434143/7d474dcf-385f-4111-82fa-3eb0d27b7ec0)
 
 # Reduction to Relation Schemas
 
@@ -81,7 +81,9 @@ In book ISBN is the candidate key, with F+ able to divided into 2 rules (rule ‚ç
 Since the non-trivial functional dependency contains the candidate key only, then the relation is in BCNF. The relations with  no functional dependencies only have trivial functional dependencies which means that they are already in BCNF. 
 
 # Database Schema Diagram 
-![Database Schema Diagram](https://github.com/BruleeTea/Book-store/assets/142434143/1f69d620-97cf-462a-9006-d48893c566ee)
+
+![Database Schema Diagram](https://github.com/BruleeTea/Book-store/assets/142434143/9df1eff8-bbb8-4974-a23d-788bc3f5c5ef)
+
 
 # Implementation
 This project was coded in Java, which is not complete. The database was implemented in Postgres. The application interface is a command line interface. I have an object called database which does all the queries and the bookstore does all the menu displays and gets user input. 
