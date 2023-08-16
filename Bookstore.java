@@ -4,10 +4,7 @@ import java.util.Scanner;
 
 public class Bookstore {
     public static void main(String args[]) {
-        try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/bookstore", "postgres", "3219");
-             //Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,
-                //     ResultSet.CONCUR_READ_ONLY);
-        ) {
+        try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/bookstore", "postgres", "3219");) {
             Database db = new Database(connection);
             MainMenu(db);
         } catch (Exception sqle) {
